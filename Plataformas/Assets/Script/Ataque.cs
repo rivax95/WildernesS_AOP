@@ -11,7 +11,7 @@ public class Ataque : MonoBehaviour
     public bool puedeatacar = false;
     public LayerMask rayCastDetect;
     public float culdown = 0.5f;
-
+    // NOTE por la cara
     // Use this for initialization
     void Start()
     {

@@ -11,11 +11,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440ef0a678975ba4cbb62d9aced23bb9, type: 3}
   m_Name: MTodoData
   m_EditorClassIdentifier: 
-  Tickets: []
+  Tickets:
+  - Texto: " EJECUTA ANIMACION\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Documents\GitHub\WildernesS_AOP\Plataformas\Assets\Script\Enemigo.cs
+    Linea: 51
+    PathAMostrar: Assets/Script/Enemigo.cs(51)
+  - Texto: " EJECUTA ANIMACION\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Documents\GitHub\WildernesS_AOP\Plataformas\Assets\Script\Enemigo.cs
+    Linea: 66
+    PathAMostrar: Assets/Script/Enemigo.cs(66)
+  - Texto: " AUDIOO\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Documents\GitHub\WildernesS_AOP\Plataformas\Assets\Script\mina.cs
+    Linea: 35
+    PathAMostrar: Assets/Script/mina.cs(35)
+  - Texto: " REPASAR\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Documents\GitHub\WildernesS_AOP\Plataformas\Assets\Script\mina.cs
+    Linea: 39
+    PathAMostrar: Assets/Script/mina.cs(39)
+  - Texto: " HACER QUE SE HAGA TRANSPARENTE Y MAS TARDE DESTRUIR EL OBJETO\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Documents\GitHub\WildernesS_AOP\Plataformas\Assets\Script\SpriteEstados.cs
+    Linea: 28
+    PathAMostrar: Assets/Script/SpriteEstados.cs(28)
+  - Texto: " se ejecuta una animacion\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Documents\GitHub\WildernesS_AOP\Plataformas\Assets\Script\Ataque.cs
+    Linea: 50
+    PathAMostrar: Assets/Script/Ataque.cs(50)
+  - Texto: " tiempo de espera de refresco del ataque\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Documents\GitHub\WildernesS_AOP\Plataformas\Assets\Script\Ataque.cs
+    Linea: 51
+    PathAMostrar: Assets/Script/Ataque.cs(51)
+  - Texto: " se ejecuta una animacion de ataque\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Documents\GitHub\WildernesS_AOP\Plataformas\Assets\Script\Ataque.cs
+    Linea: 63
+    PathAMostrar: Assets/Script/Ataque.cs(63)
+  - Texto: " por la cara\r"
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Documents\GitHub\WildernesS_AOP\Plataformas\Assets\Script\Ataque.cs
+    Linea: 14
+    PathAMostrar: Assets/Script/Ataque.cs(14)
   Categorias:
   - TODO
   - BUG
+  - NOTE
   AutoEscaneoMTodo: 0
   RutaDataMTodo: Assets/Moon Antonio/MTodo/Data/MTodoData.asset
   versionActual: 1.5.2
-  versionTop: 
+  versionTop: 1.5.2

@@ -15,6 +15,12 @@ MonoBehaviour:
   - nombre: Revisar TODO
     descripcion: Tengo que revisar los todo las notas y ir limpiando el proyecto
     estadoActual: 0
+  - nombre: audio mixer
+    descripcion: Windows -> audio mixers
+    estadoActual: 0
+  - nombre: joint
+    descripcion: mirar los joint a FONDO
+    estadoActual: 0
   Categorias:
   - categorias: []
     nombre: 

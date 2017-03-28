@@ -11,10 +11,10 @@ public class Enemigos2 : MonoBehaviour {
     GameObject player;
     bool derecha;
     public float rango = 0.5f;
+	public float rangoDistancia = 5;
     public LayerMask raycastdetected; // NOTE CONFIGURAR EN UNITY
     RaycastHit2D detectde;
     RaycastHit2D detectiz;
-    Vector2 objetibo;
     public float distancia_ataque=0.5f;
     public int dano = 1;
     public bool quieto = false;
@@ -24,29 +24,60 @@ public class Enemigos2 : MonoBehaviour {
     bool golpea = false;
     Vector2 quietov2;
     AudioSource aud;
-    // Use this for initialization
-    void Start () {
+
+	/// <summary>
+	/// <para>Comprueba si se a detectado algun enemigo</para>
+	/// </summary>
+	private bool tempDetect = false;
+
+	void Start () {
+        
         player = GameObject.FindWithTag("Player");
         mov = this.gameObject.GetComponent<MovimientoEnemigo>(); // NOTE puede que no lo detecte si no lo tiene el script por lo que tengo que si el enemigo es estatico va a tirar error Null referent....
         aud = this.GetComponent<AudioSource>();
+        aud.clip = hacedaño; // Funciona asi <---
+        aud.Play(); // clip
     }
 	
 	// Update is called once per frame
-	void Update () {
-        muerte();
-         quietov2 = transform.position;
-        detectiz = Physics2D.Raycast(transform.position, transform.right * (-1),rango,raycastdetected);
-         detectde = Physics2D.Raycast(transform.position, transform.right * (1), rango, raycastdetected);
-        Debug.DrawRay(transform.position, transform.right * (-1) * rango, Color.white, 0);
-        Debug.DrawRay(transform.position, transform.right * (1) * rango, Color.white, 0);
-        perseguir();
-        
-    }
+
+	void Update ()
+	{
+		muerte();
+
+		detectiz = Physics2D.Raycast(transform.position, transform.right * -1, rango, raycastdetected);
+		detectde = Physics2D.Raycast(transform.position, transform.right * 1, rango, raycastdetected);
+		Debug.DrawRay(transform.position, transform.right * (-1) * rango, Color.white, 0);
+		Debug.DrawRay(transform.position, transform.right * (1) * rango, Color.white, 0);
+
+		quietov2 = transform.position;
+
+		// Detectamos si tenemos objetivo
+		if (detectde != false)
+		{
+			// Si encontramos al enemigo dentro del rango, perseguimos
+			if (detectde.collider.transform.tag=="Player")//detectde.collider.transform.position.x <= detectde.collider.transform.position.x + rango || detectde.collider.transform.position.x >= detectde.collider.transform.position.x - rango)
+			{
+				perseguir();
+			}
+			else
+			{
+				mov.Persigue = false;
+			}
+		}
+		else
+		{
+			mov.Persigue = false;
+		}
+
+
+	}
+
     public void perseguir()
     { // NOTE mirar bien el script de movimiento que no interrumpa a este ni viceversa. *Mirado y corregio a falta de testearlo|26/03/2017 12:00|
         Debug.Log(detectde.collider.tag + " collision");
-        objetibo = player.gameObject.transform.position;
-        if (detectde.collider.tag == "Player")
+        if (detectde.collider.transform.position.x <= detectde.collider.transform.position.x + rango || detectde.collider.transform.position.x >= detectde.collider.transform.position.x - rango)
+
         {
             golpea = true;
             mov.Persigue = true;
@@ -79,7 +110,7 @@ public class Enemigos2 : MonoBehaviour {
         }
         else
         {
-
+			Debug.LogWarning("No persigue a nadie");
             mov.Persigue = false; //NOTE Mirar por que no funciona
         }
     }

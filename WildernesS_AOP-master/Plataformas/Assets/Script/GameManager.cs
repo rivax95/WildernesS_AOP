@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour {
         AudioSource corazon = player.GetComponent<AudioSource>();
         player.transform.position=player.GetComponent<PlayerData>().posiciones;
         canvas.SetActive(false);
+        player.GetComponent<Ataque>().enabled = true;
         player.GetComponent<PlayerData>().vidas = 3;
         Time.timeScale = 1;
         corazon.Stop();

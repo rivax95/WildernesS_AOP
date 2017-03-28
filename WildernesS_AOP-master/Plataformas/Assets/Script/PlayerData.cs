@@ -71,6 +71,7 @@ public class PlayerData : MonoBehaviour {
         chapat.text = chapa.ToString();
         if (vidas <= 0)
         {
+            this.gameObject.GetComponent<Ataque>().enabled=false;
             muerteUI.SetActive(true);
             Time.timeScale = 0; // velocidad juego 0
         }

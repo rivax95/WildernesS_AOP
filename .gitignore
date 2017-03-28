@@ -1,60 +1,47 @@
-# ===================================== #
-# Carpetas de Unity
-# ===================================== #
-Temp
-Library
-Obj
-obj
- 
-# ===================================== #
-# Visual Studio / MonoDevelop 
-# ===================================== #
-ExportedObj/
-*.svd
-*.userprefs
-*.csproj
-*.pidb
-*.suo
-*.sln
-*.user
-*.unityproj
-*.booproj
- 
-# ===================================== #
-# OS 
-# ===================================== #
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
+# Windows image file caches
 Thumbs.db
-.AppleDouble
-.LSOverride
- 
-# Instaladores de Windows
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
 *.cab
 *.msi
 *.msm
 *.msp
- 
-# Configurador de carpetas
-Desktop.ini
- 
-# Papelera de reciclaje utilizada en archivos compartidos
-$RECYCLE.BIN/
- 
-# ===================================== #
-# Personalizados
-# ===================================== #
-# Relacionado con el Proyecto
-Assets/_Content/GUI
- 
-# COPYRIGHTED / ASSET STORE
-{Carpeta proyecto}/Assets/ThirdParty/*
-{Carpeta proyecto}/Assets/ThirdParty.meta
- 
-# GITEYE
-*.project
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

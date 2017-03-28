@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 440ef0a678975ba4cbb62d9aced23bb9, type: 3}
+  m_Name: MTodoData
+  m_EditorClassIdentifier: 
+  estado: 1
+  Tickets:
+  - Texto: " ejecuta animacion\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\rivasc\Documents\GitHub\WildernesS-AOP1\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 59
+    PathAMostrar: Assets/Script/Enemigos2.cs(59)
+  - Texto: " AUDIO\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\rivasc\Documents\GitHub\WildernesS-AOP1\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 89
+    PathAMostrar: Assets/Script/Enemigos2.cs(89)
+  - Texto: " ANIMACION\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\rivasc\Documents\GitHub\WildernesS-AOP1\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 90
+    PathAMostrar: Assets/Script/Enemigos2.cs(90)
+  - Texto: ' Funcionalidad Add Categoria'
+    Nota: 
+    Categoria: MTODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Moon
+      Antonio\MTodo\Clases\MTodoTareaData.cs
+    Linea: 77
+    PathAMostrar: Assets/Moon Antonio/MTodo/Clases/MTodoTareaData.cs(77)
+  - Texto: ' se ejecuta una animacion'
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Ataque.cs
+    Linea: 50
+    PathAMostrar: Assets/Script/Ataque.cs(50)
+  - Texto: ' tiempo de espera de refresco del ataque'
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Ataque.cs
+    Linea: 51
+    PathAMostrar: Assets/Script/Ataque.cs(51)
+  - Texto: ' se ejecuta una animacion de ataque'
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Ataque.cs
+    Linea: 63
+    PathAMostrar: Assets/Script/Ataque.cs(63)
+  - Texto: ' por la cara'
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Ataque.cs
+    Linea: 14
+    PathAMostrar: Assets/Script/Ataque.cs(14)
+  - Texto: ' QUITAR ENEMIGO Y PONER ENEMIGOS2 '
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Ataque.cs
+    Linea: 49
+    PathAMostrar: Assets/Script/Ataque.cs(49)
+  - Texto: ' EJECUTA ANIMACION'
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigo.cs
+    Linea: 51
+    PathAMostrar: Assets/Script/Enemigo.cs(51)
+  - Texto: ' EJECUTA ANIMACION'
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigo.cs
+    Linea: 66
+    PathAMostrar: Assets/Script/Enemigo.cs(66)
+  - Texto: " ejecuta animacion\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 65
+    PathAMostrar: Assets/Script/Enemigos2.cs(65)
+  - Texto: " AUDIO\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 101
+    PathAMostrar: Assets/Script/Enemigos2.cs(101)
+  - Texto: " ANIMACION\r"
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 102
+    PathAMostrar: Assets/Script/Enemigos2.cs(102)
+  - Texto: " CONFIGURAR EN UNITY\r"
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 14
+    PathAMostrar: Assets/Script/Enemigos2.cs(14)
+  - Texto: " puede que no lo detecte si no lo tiene el script por lo que tengo que
+      si el enemigo es estatico va a tirar error Null referent....\r"
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 30
+    PathAMostrar: Assets/Script/Enemigos2.cs(30)
+  - Texto: " mirar bien el script de movimiento que no interrumpa a este ni viceversa.
+      *Mirado y corregio a falta de testearlo|26/03/2017 12:00|\r"
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 46
+    PathAMostrar: Assets/Script/Enemigos2.cs(46)
+  - Texto: " MIRAR Repasado con fernando 27/03/2017\r"
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 67
+    PathAMostrar: Assets/Script/Enemigos2.cs(67)
+  - Texto: " Mirar por que no funciona\r"
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 82
+    PathAMostrar: Assets/Script/Enemigos2.cs(82)
+  - Texto: " cuando le resten una vida plantear el problema PRIMERO\r"
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\Enemigos2.cs
+    Linea: 108
+    PathAMostrar: Assets/Script/Enemigos2.cs(108)
+  - Texto: ' AUDIOO'
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\mina.cs
+    Linea: 35
+    PathAMostrar: Assets/Script/mina.cs(35)
+  - Texto: ' REPASAR'
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\mina.cs
+    Linea: 39
+    PathAMostrar: Assets/Script/mina.cs(39)
+  - Texto: " revisar\r"
+    Nota: 
+    Categoria: NOTE
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\PlayerData.cs
+    Linea: 77
+    PathAMostrar: Assets/Script/PlayerData.cs(77)
+  - Texto: ' HACER QUE SE HAGA TRANSPARENTE Y MAS TARDE DESTRUIR EL OBJETO'
+    Nota: 
+    Categoria: TODO
+    Archivo: C:\Users\Alejandro\Desktop\WildernesS-AOP1-master\WildernesS_AOP-master\Plataformas\Assets\Script\SpriteEstados.cs
+    Linea: 28
+    PathAMostrar: Assets/Script/SpriteEstados.cs(28)
+  Categorias:
+  - TODO
+  - BUG
+  - MTODO
+  - NOTE
+  - preguntar
+  AutoEscaneoMTodo: 0
+  RutaDataMTodo: Assets/Moon Antonio/MTodo/Data/MTodoData.asset
+  versionActual: 2.0.0
+  versionTop: 2.0.0

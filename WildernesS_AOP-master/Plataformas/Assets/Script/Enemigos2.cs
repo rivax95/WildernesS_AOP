@@ -39,12 +39,13 @@ public class Enemigos2 : MonoBehaviour {
          detectde = Physics2D.Raycast(transform.position, transform.right * (1), rango, raycastdetected);
         Debug.DrawRay(transform.position, transform.right * (-1) * rango, Color.white, 0);
         Debug.DrawRay(transform.position, transform.right * (1) * rango, Color.white, 0);
-        objetibo = player.gameObject.transform.position;
         perseguir();
+        
     }
     public void perseguir()
     { // NOTE mirar bien el script de movimiento que no interrumpa a este ni viceversa. *Mirado y corregio a falta de testearlo|26/03/2017 12:00|
         Debug.Log(detectde.collider.tag + " collision");
+        objetibo = player.gameObject.transform.position;
         if (detectde.collider.tag == "Player")
         {
             golpea = true;

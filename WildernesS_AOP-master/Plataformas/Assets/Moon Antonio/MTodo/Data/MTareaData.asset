@@ -11,7 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b63a40b166afc647969dec714d8c69a, type: 3}
   m_Name: MTareaData
   m_EditorClassIdentifier: 
-  Tareas: []
+  Tareas:
+  - nombre: Revisar TODO
+    descripcion: Tengo que revisar los todo las notas y ir limpiando el proyecto
+    estadoActual: 0
   Categorias:
   - categorias: []
     nombre: 

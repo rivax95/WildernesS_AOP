@@ -24,6 +24,7 @@ public class SpriteEstados : MonoBehaviour {
             Debug.Log("CAMBIA DE ESTADO");
             this.gameObject.GetComponent<SpriteRenderer>().sprite = roto;
             Instantiate(vida, new Vector2(transform.position.x, transform.position.y + 1), Quaternion.identity);
+            //TODO EL COLIDER AI QUE MIRARLO
             rotico = true;
             //TODO HACER QUE SE HAGA TRANSPARENTE Y MAS TARDE DESTRUIR EL OBJETO
             //this.gameObject.GetComponent<SpriteRenderer>().color = transparente;
